@@ -31,10 +31,10 @@ export default ({item})=>{
                         </div>
                             <div classNmae="featured--description">{description}</div>
                             <div className="featured--buttons">
-                                <a href="#" className="featured--watchbutton"> Assitir</a>
+                                <a href="#" className="featured--watchbutton"> Assistir</a>
                                 <a href="#" className="featured--myListbutton">+ Minha Lista</a>
                              </div>  
-                         <div className="featured--genres"><strong>Gêneros:</strong>{genres.join(', ')}</div>    
+                         <div className="featured--genres"><strong>Gêneros: </strong>{genres.join(', ')}</div>    
                    </div>
             </div>
         </section>
